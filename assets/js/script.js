@@ -44,22 +44,22 @@ const circle_img_mobile = $('.circle_img_mobile')
 const playList = {
     songs: [
         {
-            image: '../ZingMP3/image/playlist/songvang.jpg',
+            image: './image/playlist/songvang.jpg',
             title: 'Sóng Vàng 2023',
             produce: 'Zing Mp3'
         }, 
         {
-            image: '../ZingMP3/image/playlist/ngayemdilaychong.jpg',
+            image: './image/playlist/ngayemdilaychong.jpg',
             title: 'Ngày mai em đi lấy chồng',
             produce: 'Thành Đạt'
         }, 
         {
-            image: '../ZingMP3/image/playlist/tuyentap.jpg',
+            image: './image/playlist/tuyentap.jpg',
             title: 'Nhạc tuyển tập hay 2023',
             produce: 'Vpop'
         }, 
         {
-            image: '../ZingMP3/image/playlist/RapViet2020.jpeg',
+            image: './image/playlist/RapViet2020.jpeg',
             title: 'Rap Việt',
             produce: 'Vion chanel'
         }
@@ -69,42 +69,42 @@ const playList = {
 const playlist_one = {
     songs: [
         {
-            image: '../ZingMP3/image/playlist/songvang.jpg',
+            image: './image/playlist/songvang.jpg',
             title: 'Sóng Vàng 2023',
             produce: 'Zing Mp3'
         }, 
         {
-            image: '../ZingMP3/image/playlist/ngayemdilaychong.jpg',
+            image: './image/playlist/ngayemdilaychong.jpg',
             title: 'Ngày mai em đi lấy chồng',
             produce: 'Thành Đạt'
         }, 
         {
-            image: '../ZingMP3/image/playlist/tuyentap.jpg',
+            image: './image/playlist/tuyentap.jpg',
             title: 'Nhạc tuyển tập hay 2023',
             produce: 'Vpop'
         }, 
         {
-            image: '../ZingMP3/image/playlist/RapViet2020.jpeg',
+            image: './image/playlist/RapViet2020.jpeg',
             title: 'Rap Việt',
             produce: 'Vion chanel'
         },
         {
-            image: '../ZingMP3/image/playlist/hoailam.jpg',
+            image: './image/playlist/hoailam.jpg',
             title: 'Top ca khúc hay',
             produce: 'Hoài Lâm'
         },
         {
-            image: '../ZingMP3/image/playlist/lebaobinh.jpg',
+            image: './image/playlist/lebaobinh.jpg',
             title: 'Tuyển tập bài hát',
             produce: 'Lê Bảo Bình'
         },
         {
-            image: '../ZingMP3/image/playlist/lofi_chill.jpg',
+            image: './image/playlist/lofi_chill.jpg',
             title: 'Nhạc Lofi Chill',
             produce: 'Lofi'
         },
         {
-            image: '../ZingMP3/image/playlist/mrsiro.jpg',
+            image: './image/playlist/mrsiro.jpg',
             title: 'Nhạc Mrsiro',
             produce: 'Mrsiro'
         }
@@ -115,23 +115,23 @@ const playlist_one = {
 const album = {
     songs: [
         {
-            image: '../ZingMP3/image/album/nhactre.jpg',
+            image: './image/album/nhactre.jpg',
             title: 'Nhạc trẻ'
         },
         {
-            image: '../ZingMP3/image/album/bolero.jpg',
+            image: './image/album/bolero.jpg',
             title: 'Nhạc trữ tình'
         }, 
         {
-            image: '../ZingMP3/image/album/us_uk.jpg',
+            image: './image/album/us_uk.jpg',
             title: 'Nhạc US-UK'
         }, 
         {
-            image: '../ZingMP3/image/album/balads.jpg',
+            image: './image/album/balads.jpg',
             title: 'Nhạc balad buồn'
         }, 
         {
-            image: '../ZingMP3/image/album/us_uk_thinh_hanh.jpg',
+            image: './image/album/us_uk_thinh_hanh.jpg',
             title: 'Top thịnh hành US-UK'
         }
     ]
@@ -140,23 +140,23 @@ const album = {
 const album_one = {
     songs: [
         {
-            image: '../ZingMP3/image/album/nhactre.jpg',
+            image: './image/album/nhactre.jpg',
             title: 'Nhạc trẻ'
         },
         {
-            image: '../ZingMP3/image/album/bolero.jpg',
+            image: './image/album/bolero.jpg',
             title: 'Nhạc trữ tình'
         }, 
         {
-            image: '../ZingMP3/image/album/us_uk.jpg',
+            image: './image/album/us_uk.jpg',
             title: 'Nhạc US-UK'
         }, 
         {
-            image: '../ZingMP3/image/album/balads.jpg',
+            image: './image/album/balads.jpg',
             title: 'Nhạc balad buồn'
         }, 
         {
-            image: '../ZingMP3/image/album/us_uk_thinh_hanh.jpg',
+            image: './image/album/us_uk_thinh_hanh.jpg',
             title: 'Top thịnh hành US-UK'
         }
         
@@ -166,22 +166,22 @@ const album_one = {
 const mvs = {
     songs: [
         {
-            image:'../ZingMP3/image/mv/maunuocmat.jpg', 
+            image:'./image/mv/maunuocmat.jpg', 
             title: 'Màu nước mắt',
             produce: 'Nguyễn Trần Trung Quân',
-            avatar: '../ZingMP3/image/mv/maunuocmat.jpg'
+            avatar: './image/mv/maunuocmat.jpg'
         }, 
         {
-            image:'../ZingMP3/image/mv/hoacolau.jpg', 
+            image:'./image/mv/hoacolau.jpg', 
             title: 'Hoa cỏ lau',
             produce: 'Phong Max',
-            avatar: '../ZingMP3/image/mv/hoacolau.jpg'
+            avatar: './image/mv/hoacolau.jpg'
         },
         {
-            image:'../ZingMP3/image/mv/tinhtahainga.jpg', 
+            image:'./image/mv/tinhtahainga.jpg', 
             title: 'Tình ta hai ngã',
             produce: 'Aki Khoa',
-            avatar: '../ZingMP3/image/mv/tinhtahainga.jpg'
+            avatar: './image/mv/tinhtahainga.jpg'
         }
     ]
 }
@@ -189,22 +189,22 @@ const mvs = {
 const mv_one = {
     songs: [
         {
-            image:'../ZingMP3/image/mv/maunuocmat.jpg', 
+            image:'./image/mv/maunuocmat.jpg', 
             title: 'Màu nước mắt',
             produce: 'Nguyễn Trần Trung Quân',
-            avatar: '../ZingMP3/image/mv/maunuocmat.jpg'
+            avatar: './image/mv/maunuocmat.jpg'
         }, 
         {
-            image:'../ZingMP3/image/mv/hoacolau.jpg', 
+            image:'./image/mv/hoacolau.jpg', 
             title: 'Hoa cỏ lau',
             produce: 'Phong Max',
-            avatar: '../ZingMP3/image/mv/hoacolau.jpg'
+            avatar: './image/mv/hoacolau.jpg'
         },
         {
-            image:'../ZingMP3/image/mv/tinhtahainga.jpg', 
+            image:'./image/mv/tinhtahainga.jpg', 
             title: 'Tình ta hai ngã',
             produce: 'Aki Khoa',
-            avatar: '../ZingMP3/image/mv/tinhtahainga.jpg'
+            avatar: './image/mv/tinhtahainga.jpg'
         }
     ]
 }
@@ -212,35 +212,35 @@ const mv_one = {
 const list_singer = {
     singers: [
         {
-            image: '../ZingMp3/image/singer/hoailam_1.jpg',
+            image: './image/singer/hoailam_1.jpg',
             name: 'Hoài Lâm'
         }, 
         {
-            image: '../ZingMp3/image/singer/mytam.jpeg',
+            image: './image/singer/mytam.jpeg',
             name: 'Mỹ Tâm'
         }, 
         {
-            image: '../ZingMp3/image/singer/sontung.jpg',
+            image: './image/singer/sontung.jpg',
             name: 'Sơn Tùng'
         }, 
         {
-            image: '../ZingMp3/image/singer/tuanhung.jpg',
+            image: './image/singer/tuanhung.jpg',
             name: 'Tuấn Hưng'
         }, 
         {
-            image: '../ZingMp3/image/singer/ducphuc.jpg',
+            image: './image/singer/ducphuc.jpg',
             name: 'Đức Phúc'
         },
         {
-            image: '../ZingMp3/image/singer/chali_puth.jpg',
+            image: './image/singer/chali_puth.jpg',
             name: 'Charlie Puth'
         },
         {
-            image: '../ZingMp3/image/singer/h2k.jpg',
+            image: './image/singer/h2k.jpg',
             name: 'H2K'
         },
         {
-            image: '../ZingMp3/image/singer/karik.jpg',
+            image: './image/singer/karik.jpg',
             name: 'Karik'
         }
         
@@ -254,7 +254,7 @@ const my_music = {
             singer: "Vicetone",
             path: "./music/y2meta.com - Vicetone - Nevada (ft. Cozi Zuehlsdorff) (128 kbps).mp3",
             image:
-              "../ZingMP3/image/song/nevada.jpg",
+              "./image/song/nevada.jpg",
               duration: '03:29'
           },
           {
@@ -262,7 +262,7 @@ const my_music = {
             singer: "Charlie Puth",
             path: "./music/y2meta.com - Charlie Puth - Attention (Lyrics) (128 kbps).mp3",
             image:
-              "../ZingMP3/image/song/attention.jpg",
+              "./image/song/attention.jpg",
               duration: '03:32'
           },
           {
@@ -270,7 +270,7 @@ const my_music = {
             singer: "K-391",
             path: "./music/y2meta.com - K-391 - Summertime [Sunshine] (128 kbps).mp3",
             image:
-              "../ZingMP3/image/song/summertime.jpg",
+              "./image/song/summertime.jpg",
               duration: "04:12"
           },
           {
@@ -278,7 +278,7 @@ const my_music = {
             singer: "Đen",
             path: "./music/y2meta.com - Đen - Ngày Khác Lạ ft. Giang Pham, Triple D (M_V) (128 kbps).mp3",
             image:
-              "../ZingMP3/image/song/ngaykhacla.jpg",
+              "./image/song/ngaykhacla.jpg",
             duration: "03:33"
           },
           {
@@ -286,7 +286,7 @@ const my_music = {
             singer: "DJ DESA Remix (Lyrics + Vietsub)",
             path: "./music/y2meta.com - Lemon Tree - DJ DESA Remix (Lyrics + Vietsub) __ TikTok ♫ (128 kbps).mp3",
             image:
-              "../ZingMP3/image/song/lemon_tree.jpg",
+              "./image/song/lemon_tree.jpg",
             duration: "03:05"
           },
           {
@@ -294,7 +294,7 @@ const my_music = {
             singer: "Aki Khoa",
             path: "./music/y2mate.com - TÌNH TA HAI NGÃ  AKI KHOA  PHAN TRẦN CÔNG HIẾU  OFFICIAL MUSIC VIDEO.mp3",
             image:
-              "../ZingMP3/image/mv/tinhtahainga.jpg",
+              "./image/mv/tinhtahainga.jpg",
             duration: "07:16"
           }
     ]
@@ -709,9 +709,9 @@ const app = {
         // xử lý click vào danh sách bài hát
         list_song.onclick = function(e) {
             const songNode = e.target.closest('.song__item')
-            const control_music_mobile = $('.control_play_music_mobile')
+            // const control_music_mobile = $('.control_play_music_mobile')
             if(songNode) {
-                control_music_mobile.style.display = 'flex'
+                 
                 _this.currentIndex = songNode.dataset.index
                 _this.loadCurrentSong()
                 audio.play()
