@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../ZingMP3/assets/css/style.css">
+    <link rel="stylesheet" href="../ZingMP3/assets/css/sidebar_style.css">
+    <link rel="stylesheet" href="../ZingMP3/assets/css/main.css">
+    <link rel="stylesheet" href="../ZingMP3/assets/css/footer.css">
+    <link rel="stylesheet" href="../ZingMP3/assets/css/responsive.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!--Side bar-->
+        <div id="sidebar">
+            <div class="top_sidebar">
+                <img src="./image/ZingMP3logo.svg.png" alt="logo_zing" class="picture_logo" style="width: 100px; margin: 10px auto">
+            </div>
+
+            <div class="middel_sidebar">
+                <ul class="menu menu_one">
+                    <li class="menu__item menu__item_one" data-index="0">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">Cá nhân</a>
+                    </li>
+                    <li class="menu__item menu__item_one" data-index="1">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <a href="#">Khám phá</a>
+                    </li>
+                    <li class="menu__item menu__item_one" data-index="2">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <a href="#">Zing chart</a>
+                    </li>
+                    <li class="menu__item menu__item_one" data-index="3">
+                        <i class="fa-solid fa-radio"></i>
+                        <a href="#">Radio</a>
+                    </li>
+                    <li class="menu__item menu__item_one" data-index="4">
+                        <i class="fa-sharp fa-solid fa-headphones-simple"></i>
+                        <a href="#">Theo dõi</a>
+                    </li>
+                    <div class="line line_one"></div>
+                </ul>
+                <hr>
+                <ul class="menu menu_two">
+                    <li class="menu__item">
+                        <i class="fa-solid fa-music"></i>
+                        <a href="#">Nhạc mới</a>
+                    </li>
+                    <li class="menu__item">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <a href="#">Thể loại</a>
+                    </li>
+                    <li class="menu__item">
+                        <i class="fa-solid fa-star"></i>
+                        <a href="#">Top 100</a>
+                    </li> 
+                    <li class="menu__item">
+                        <i class="fa-solid fa-video"></i>
+                        <a href="#">MV</a>
+                    </li>
+                    <div class="advertisement">
+                        <p>Nghe nhạc không quản cáo cùng kho nhạc VIP</p>
+                        <p>MUA VIP</p>
+                    </div>
+                    <div class="line line_two"></div>
+                </ul>
+
+                <div class="library">
+                    <p>THƯ VIỆN</p>
+                    <ul class="library_menu">
+                        <li class="menu__item">
+                            <i class="fa-solid fa-file-audio"></i>
+                            <span>Bài hát</span>
+                        </li>
+                        <li class="menu__item">
+                            <i class="fa-solid fa-drum"></i>
+                            <span>PlayList</span>
+                        </li>
+                        <li class="menu__item">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Gần đây</span>
+                        </li>
+                    </ul>
+                    <div class="line library_line"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Main-->
+        <div id="main">
+             <div class="header">
+                <div class="control">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="search_song">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Nhập tên nghệ sĩ hoặc bài hát, MV...">
+                </div>
+
+                <div class="convenient">
+                     <div class="convenient__item">
+                        <i class="fa-solid fa-shirt"></i>
+                     </div>
+
+                     <div class="convenient__item">
+                        <i class="fa-solid fa-gem"></i>
+                     </div>
+
+                     <div class="convenient__item">
+                        <i class="fa-solid fa-arrow-right-to-bracket fa-rotate-270"></i>
+                     </div>
+
+                     <div class="convenient__item">
+                        <i class="fa-solid fa-gear"></i>
+                     </div>
+
+                     <div class="convenient__item">
+                        <img src="./image/4.jpg" alt="avatar_app" class="avatar"">
+                     </div>
+                </div>
+             </div>
+
+             <!--Content-->
+            <div class="content">
+                <div class="slide">
+                    <div class="avatar_main">
+                        <img src="./image/4.jpg" alt="avatar_main">
+                    </div>
+                     <p class="name">Võ Mạnh Hiếu</p>
+                     <ul class="list_menu">
+                        <li class="list_menu_item active_item_slide " data-index="0">
+                            <a href="#">TỔNG QUAN</a>
+                        </li>
+                        <li class="list_menu_item "data-index="1">
+                            <a href="#">BÀI HÁT</a>
+                        </li>
+                        <li class="list_menu_item "data-index="2">
+                            <a href="#">PLAYLIST</a>
+                        </li>
+                        <li class="list_menu_item "data-index="3">
+                            <a href="#">ALBUM</a>
+                        </li>
+                        <li class="list_menu_item "data-index="4">
+                            <a href="#">MV</a>
+                        </li>
+                        <li class="list_menu_item "data-index="5">
+                            <a href="#">NGHỆ SĨ</a>
+                        </li>
+                        <li class="list_menu_item "data-index="6">
+                            <a href="#">TẢI LÊN</a>
+                        </li>
+                     </ul>
+                </div>
+
+                <div class="song">
+                     <div class="song_heading">
+                        <div class="left_heading">
+                            <p>Bài hát</p>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="right_heading">
+                            <p>Tải lên</p>
+                            <p>Phát tất cả</p>
+                        </div>
+                     </div>
+
+                     <div class="song_content">
+                        <div class="image_animation">
+                             <img src="./image/song/nevada.jpg" alt="slide_picture" class="option_all_song_slide_img option_all_song_slide_img_first">
+                             <img src="./image/song/attention.jpg" alt="slide_picture" class="option_all_song_slide_img option_all_song_slide_img_second">
+                             <img src="./image/song/summertime.jpg" alt="slide_picture" class="option_all_song_slide_img option_all_song_slide_img_third">
+                             <img src="./image/song/ngaykhacla.jpg" alt="slide_picture" class="option_all_song_slide_img option_all_song_slide_img_four">
+                             <img src="./image/song/lemon_tree.jpg" alt="slide_picture" class="option_all_song_slide_img option_all_song_slide_img_four">
+                             <img src="./image/mv/tinhtahainga.jpg" alt="slide_picture" class="option_all_song_slide_img option_all_song_slide_img_four">
+
+                            
+                        </div>
+
+                        <div class="list_song">
+                            
+                            
+                        </div>
+                     </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="playlist_heading">
+                        <p>Playlist</p>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="list">
+                        <div class="list_item">
+                            <i class="fa-solid fa-plus"></i>
+                            <p>Tạo PlayList Mới</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="album">
+                    <div class="album_heading">
+                        <p>Album</p>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div class="list_album">
+                        
+                    </div>
+                </div>
+
+                <div class="mv">
+                    <div class="mv_heading">
+                        <p>MV</p>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div class="list_mv">
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Các tab khi chuyển-->
+            <div class="tab_song">
+                <div class="tab_song--title">
+                    <p>Bài hát</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="tab_song--list_menu">
+                    <p>Danh sách phát</p>
+                    
+                </div>
+            </div>
+
+            <div class="tab_playlist">
+                <div class="tab_song--title">
+                    <p>PlayList</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="tab_playlist--list_menu">
+                    
+                </div>
+            </div>
+            
+            <div class="tab_album">
+                <div class="tab_song--title">
+                    <p>Album</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="tab_album--list_menu">
+                    
+                </div>
+            </div>
+            
+            <div class="tab_mv">
+                <div class="tab_song--title">
+                    <p>Album</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="tab_mv--list_menu">
+                    
+                </div>
+            </div>
+
+            <div class="tab_singer">
+                <div class="tab_song--title">
+                    <p>Nghệ sĩ</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="tab_singer--list_menu">
+                    
+                </div>
+            </div>
+
+            <!--Khám phá-->
+            <div class="discover">
+                <div class="discover_heading">
+                    <p class="discover_heading_title">#Khám phá</p>
+                    <div class="discover_option">
+                        <p  class="option_item">Trong Nước</p>
+                        <p class="option_item">Quốc tế</p>
+                    </div>
+                </div>
+
+                <div class="discover_charts">
+                    <p class="title">Bảng xếp hạng mới</p>
+                    <div class="discover_song_chart">
+
+                    </div>
+                </div>
+            </div>
+            
+            <!--Zingchart-->
+            <div class="zing_chart">
+                <div class="information_zing_chart">
+                    <p class="zing_chart_heading">#Zing Chart</p>
+                    <div class="option">
+                        <p>Gần đây</p>
+                        <p>Tìm kiếm</p>
+                    </div>
+                </div>
+                <div class="list_music_trend">
+
+                </div>
+            </div>
+            
+            <!--Radio-->
+            <div class="radio">
+                <p class="radio_heading">#Radio</p>
+                <div class="some_radio_recently">
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/sunflower.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Sunflower</p>
+                            <p class="radio_sub">120k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/the_present_writer.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">The Present Writer</p>
+                            <p class="radio_sub">320k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/giang_radio.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Giang ơi Radio</p>
+                            <p class="radio_sub">200k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/have_a_sip.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Have A Sip</p>
+                            <p class="radio_sub">90k follower</p>
+                        </div>
+                       
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/oddly_normal.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Oddly normal</p>
+                            <p class="radio_sub">210k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/radio_nguoi_giu_ki_niem.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Radio Người Giữ Kỉ Niệm</p>
+                            <p class="radio_sub">150k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/tamlihoc.png" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Tâm lý học tuổi trẻ</p>
+                            <p class="radio_sub">100k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/minhniem.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Minh Niệm</p>
+                            <p class="radio_sub">270k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/sunhuyn.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Sunhuyn postcard</p>
+                            <p class="radio_sub">200k follower</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="radio_item">
+                        <div class="circle_image">
+                            <img src="../ZingMP3/image/radio/trikicuocsong.jpg" alt="radio_item_picture">
+                            <div class="radio_overlay">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="radio_detail">
+                            <p class="radio_tilte">Tri kỉ cuộc sống</p>
+                            <p class="radio_sub">135k follower</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="blog_radio_trending">
+                    <p class="blog_heading">#Blog radio trending</p>
+                    <div class="some_blog_radio_trending">
+                        <div class="blog_radio">
+                            <div class="blog_radio_item">
+                                <div class="avatar_radio">
+                                    <span class="number">1</span>
+                                    <img src="../ZingMP3/image/radio/sunflower.jpg">
+                                </div>
+
+                                <div class="info_blog_radio">
+                                    <p class="name_author_radio">SunFlower</p>
+                                    <p class="describe">Cuộc sống là một chuyến đi dài và thú vị vì vậy bạn hãy trải nghiệm nó để không hối tiếc lúc về già</p>
+                                </div>
+                            </div>
+
+                            <div class="blog_radio_item">
+                                <div class="avatar_radio">
+                                    <span class="number">2</span>
+                                    <img src="../ZingMP3/image/radio/the_present_writer.jpg">
+                                </div>
+
+                                <div class="info_blog_radio">
+                                    <p class="name_author_radio">The Present Writer</p>
+                                    <p class="describe">Những nguồn năng lượng tích cực giúp bạn hướng đến cuộc sống tươi đẹp hơn!</p>
+                                </div>
+                            </div>
+
+                            <div class="blog_radio_item">
+                                <div class="avatar_radio">
+                                    <span class="number">3</span>
+                                    <img src="../ZingMP3/image/radio/oddly_normal.jpg">
+                                </div>
+
+                                <div class="info_blog_radio">
+                                    <p class="name_author_radio">Oddly normal</p>
+                                    <p class="describe">Văn hóa, nền kinh tế và lịch sử dân tộc</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog_radio">
+                            <div class="blog_radio_item">
+                                <div class="avatar_radio">
+                                    <span class="number">4</span>
+                                    <img src="../ZingMP3/image/radio/sunhuyn.jpg">
+                                </div>
+
+                                <div class="info_blog_radio">
+                                    <p class="name_author_radio">Sunhuyn</p>
+                                    <p class="describe">Tìm hiểu bản thân, khám phá năng lượng tích cực từ chính bản thân mình</p>
+                                </div>
+                            </div>
+
+                            <div class="blog_radio_item">
+                                <div class="avatar_radio">
+                                    <span class="number">5</span>
+                                    <img src="../ZingMP3/image/radio/radio_nguoi_giu_ki_niem.jpg">
+                                </div>
+
+                                <div class="info_blog_radio">
+                                    <p class="name_author_radio">Radio Người Giữ Kỉ Niệm</p>
+                                    <p class="describe">Nơi lưu giữ những kỉ niệm đẹp thời thanh xuân, tuổi trẻ</p>
+                                </div>
+                            </div>
+
+                            <div class="blog_radio_item">
+                                <div class="avatar_radio">
+                                    <span class="number">6</span>
+                                    <img src="../ZingMP3/image/radio/have_a_sip.jpg">
+                                </div>
+
+                                <div class="info_blog_radio">
+                                    <p class="name_author_radio">Have A Sip</p>
+                                    <p class="describe">Cuộc dạo chơi của những người bạn sau những ngày làm việc căng thẳng</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Footer-->
+        <div id="footer">
+             <div class="left_footer">
+                 <img src="./image/4.jpg" class="avatar_song">
+                 <div class="description_ft">
+                    <p class="title_song">Music song</p>
+                    <p class="name_song">Author song</p>
+                 </div>
+                 <div class="option">
+                    <i class="fa-solid fa-heart" style="color: red;"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                 </div>
+             </div>
+
+             <div class="middel_footer">
+                  <ul class="control_music">
+                      <li class="btn__random">
+                        <i class="fa-solid fa-shuffle"></i>
+                      </li>
+
+                      <li class="btn__prev">
+                        <i class="fa-solid fa-backward"></i>
+                      </li>
+
+                      <li class="btn_control_play">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-pause"></i>
+                      </li>
+
+                    <li class="btn__next">
+                        <i class="fa-solid fa-forward"></i>
+                    </li>
+                      
+                    <li class="btn__repeat">
+                        <i class="fa-solid fa-repeat"></i>
+                    </li>
+
+                  </ul>
+                  <div class="time">
+                      <span class="start_song">00:00</span>
+                      <input type="range" value="0" step="1" min="0" max="100" style="color: #ccc;" class="progress">
+                      <span class="end_song">03:40</span>
+                    </div>
+                    <audio src=""></audio>
+             </div>
+
+             <div class="right_footer">
+                  <ul class="icon">
+                    <li class="icon_item">
+                        <i class="fa-solid fa-video"></i>
+                    </li>
+                    <li class="icon_item">
+                        <i class="fa-solid fa-microphone"></i>
+                    </li>
+                    <li class="icon_item">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </li>
+                    <li class="icon_item" style="width: 129px;">
+                        <input type="range" id="volume" value="100" step="0.1" min="0" max="1" style="color: #ccc; content-visibility: auto; height: 5px; width: 100%;">
+                    </li>
+                    <li class="icon_item">
+                        <i class="fa-solid fa-music"></i>
+                    </li>
+                    <li class="icon_item">
+                        <i class="fa-solid fa-list-check"></i>
+                    </li>
+                  </ul>
+             </div>
+             
+            
+             <div class="footer_mobile">
+                <div class="mobile_item" data-index="0">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="title_mobile">Cá nhân</p>
+                </div>
+                <div class="mobile_item" data-index="1">
+                    <i class="fa-solid fa-compact-disc"></i>
+                    <p class="title_mobile">Khám phá</p>
+                </div>
+                <div class="mobile_item" data-index="2">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <p class="title_mobile">Zing chart</p>
+                </div>
+                <div class="mobile_item" data-index="3">
+                    <i class="fa-solid fa-radio"></i>
+                    <p class="title_mobile">Raio</p>
+                </div>
+                <div class="mobile_item" data-index="4">
+                    <i class="fa-sharp fa-solid fa-headphones-simple"></i>
+                    <p class="title_mobile">Theo dõi</p>
+                </div>
+             </div>
+        </div>
+        <!--control play music mobile-->
+        <div class="control_play_music_mobile">
+            <div class="left_control">
+                <div class="circle_img_mobile">
+                    <img src="./image/4.jpg" class="img_mobile_song">
+                </div>
+                <div class="information_song_mobile">
+                    <p class="name_song_moblie">Music song</p>
+                    <p class="author_song_mobile">Ten ten</p>
+                </div>
+            </div>
+
+            <div class="right_control">
+                <div class="item_control prev_mb">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div class="item_control play_mb">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-pause"></i>
+                </div>
+                <div class="item_control next_mb">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+         </div>
+        <!--tab_song_container-->
+        <div class="container_music_player">
+            <div class="detail_info_music_song">
+                 <img src="./image/4.jpg" alt="" class="img_music_container">
+                 <div class="info">
+                    <p class="info_name"></p>
+                    <p class="singer_author"></p>
+                    <div class="subcriber">119k followers</div>
+                 </div> 
+                 <button class="hobby_btn">
+                    Yêu thích
+                 </button>
+            </div>
+
+            <div class="all_song">
+                <div class="all_song_heading">
+                    <div class="heading_item">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div class="heading_item">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="heading_item btn-down">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>        
+                </div>
+                
+                <p style="font-size: 20px; letter-spacing: 2px; font-style: italic;">Có thể bạn đã nghe qua</p>
+                <div class="all_song_playlist">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pop_up_notification">
+            <div class="btn_close">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="body_pop_up">
+                <i class="fa-solid fa-circle-exclamation" style="color: orange; font-size: 20px;"></i>
+                <p class="text">Tính năng này chưa được hoàn thiện 😊</p>
+            </div>
+        </div>
+    </div>
+    <script src="../ZingMP3/assets/js/script.js"></script>
+</body>
+</html>

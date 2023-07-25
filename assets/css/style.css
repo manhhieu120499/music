@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#sidebar .middel_sidebar {
+    padding-bottom: 50px;
+}
+
+/* #main > .content{
+    display: block;
+} */
+
+#main .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    
+}
+
+#main .content {
+    margin-top: 60px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 11;
+}
+
+/*Custom thanh scroll-bar*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+

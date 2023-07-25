@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px;
+   background-color: #E5E3DF;
+   border-top: 1px solid #ccc;
+   
+}
+
+.middel_footer,
+.left_footer,
+.right_footer {
+    width: 32%;
+}
+
+.middel_footer .control_music {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.btn_control_play{
+    border-radius: 50%;
+    background-color: red;
+    line-height: 40px;
+}
+
+.btn_control_play > i{
+    display: inline-block;
+    color: white;
+}
+
+.btn_control_play .fa-pause {
+    display: none;
+}
+
+.playing .btn_control_play > i {
+    display: inline-block;
+    color: white;
+}
+
+.playing .btn_control_play .fa-pause {
+    display: inline-block;
+}
+
+.playing .btn_control_play .fa-play {
+    display: none;
+}
+
+.middel_footer .time {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.time .progress{
+    width: 70%;
+    content-visibility: hidden;
+    height: 5px;
+}
+
+.progress::-webkit-progress-bar {
+    background-color: black;
+}
+
+.time .progress:hover{
+    content-visibility: visible;
+}
+
+.time > span {
+    font-size: 14px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.right_footer .icon{
+   width: 100%;
+   list-style: none;
+   text-align: center;
+}
+
+.control_music > li
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.right_footer > .icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.left_footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_footer .description_ft {
+    width: 50%;
+}
+
+.left_footer .option {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.description_ft .title_song {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.description_ft .name_song {
+    font-size: 14px;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.left_footer > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+/*class active btn-repeat, btn-random*/
+.active {
+    color: red;
+}
+
+/*tab_song_container khi click vào footer*/
+.container_music_player {
+    width: 100%;
+    height: 93%;
+    background-color: #d9d9dd;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    transition: transform 1s ease-in;
+    transform: translateY(120%);
+    animation: faceInt 1s ease-in;
+}
+
+.detail_info_music_song {
+    width: 40%;
+    /* height: 100%; */
+    text-align: center;
+    padding-top: 80px;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+}
+
+.detail_info_music_song > img {
+    width: 350px;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+/* .info {
+    width: 100%;
+    text-align: center;
+} */
+
+.info > .info_name {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.info > .singer_author {
+    font-size: 17px;
+    opacity: 0.8;
+    margin: 5px 0;
+}
+
+.info > .subcriber {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.hobby_btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+.hobby_btn:hover {
+    background-color: yellow;
+    width: 150px;
+    color: black;
+}
+
+.all_song {
+    width: 60%;
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.all_song_heading {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+}
+
+.heading_item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+    line-height: 40px;
+}
+
+.all_song_playlist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all_song_playlist > .song__item {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.all_song_playlist > .song__item:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.all_song_playlist > .song__item:hover > .right__item > .fa-heart {
+    color: white
+}
+
+@keyframes faceInt {
+    from{
+        opacity: 0;
+    }to {
+        opacity: 1;
+    }
+}
+
+.footer_mobile {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer_mobile > .mobile_item > p{
+    font-size: 10px;
+}
+
+.control_play_music_mobile {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: red;
+    height: 80px;
+}
+
+.control_play_music_mobile > .left_control {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.control_play_music_mobile > .left_control > .circle_img_mobile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.circle_img_mobile > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.control_play_music_mobile > .right_control {
+   width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 20px;
+}
+
+.control_play_music_mobile > .right_control > .item_control {
+    font-size: 18px;
+}
+
+.play_mb > .fa-circle-pause {
+    display: none;
+}
+
+.playing_mobile > .fa-circle-pause {
+    display: block;
+}
+
+.playing_mobile > .fa-circle-play {
+    display: none;
+}
+
+.information_song_mobile {
+    width: 60%;
+}
+
+.information_song_mobile > .name_song_moblie {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.information_song_mobile > .author_song_mobile {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
